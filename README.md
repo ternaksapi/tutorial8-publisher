@@ -33,7 +33,7 @@ Console Subscriber Setelah menjalankan program publisher kedua kali
 ![image-3](https://github.com/ternaksapi/tutorial8-publisher/assets/116947973/e5efc125-3fae-4dc5-95e6-a5590a2b281a)
 
 RabbitMQ Setelah menjalankan _publisher_. Terdapat spike karena ketika publisher dijalankan, publisher mengirimkan pesan yang mengakibatkan message rate naik sesuai dengan grafik pada _RabbitMQ_
-![alt text](image-4.png)
+![image-4](https://github.com/ternaksapi/tutorial8-publisher/assets/116947973/dc44a568-cd4b-4262-8e37-c6d7c4b7b725)
 
 
 
