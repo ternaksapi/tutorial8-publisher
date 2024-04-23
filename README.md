@@ -18,6 +18,8 @@ Dimana tiap line akan mengirimkan satu pesan ke queue `user_created`.
 ## 2. The url of: `amqp://guest:guest@localhost:5672` is the same as in the subscriber program, what does it mean?
 Kedua program terhubung pada server message broker yang sama, pada kasus ini `RabbitMQ`.
 
+Penggunaan URL yang sama pada publisher dan subscriber memungkinkan mereka untuk berkomunikasi melalui message broker RabbitMQ yang sama. Publisher mengirimkan pesan ke antrian "user_created", dan subscriber mendengarkan pada antrian yang sama untuk menerima pesan tersebut.
+
 
 
 
