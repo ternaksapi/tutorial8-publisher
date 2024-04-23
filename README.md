@@ -21,17 +21,16 @@ Kedua program terhubung pada server message broker yang sama, pada kasus ini `Ra
 Penggunaan URL yang sama pada publisher dan subscriber memungkinkan mereka untuk berkomunikasi melalui message broker RabbitMQ yang sama. Publisher mengirimkan pesan ke antrian "user_created", dan subscriber mendengarkan pada antrian yang sama untuk menerima pesan tersebut.
 
 Sebelum menjalankan program subscriber dan publisher
-![alt text](image-1.png)
-
+![image-1](https://github.com/ternaksapi/tutorial8-publisher/assets/116947973/ac86f42e-8d6f-4b34-8308-cdcd881f18e7)
 
 Setelah menjalankan program subscriber dan publisher
-![alt text](image-2.png)
+![image-2](https://github.com/ternaksapi/tutorial8-publisher/assets/116947973/3bb23548-614f-41d8-9d04-a7d21383cd97)
 
 Menjalankan publisher dua kali
-![alt text](image.png)
+![image](https://github.com/ternaksapi/tutorial8-publisher/assets/116947973/5c19a6b8-a471-4f00-9796-553e49cceafa)
 
 Console Subscriber Setelah menjalankan program publisher kedua kali
-![alt text](image-3.png)
+![image-3](https://github.com/ternaksapi/tutorial8-publisher/assets/116947973/e5efc125-3fae-4dc5-95e6-a5590a2b281a)
 
 RabbitMQ Setelah menjalankan _publisher_. Terdapat spike karena ketika publisher dijalankan, publisher mengirimkan pesan yang mengakibatkan message rate naik sesuai dengan grafik pada _RabbitMQ_
 ![alt text](image-4.png)
