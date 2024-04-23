@@ -24,7 +24,7 @@ Sebelum menjalankan program subscriber dan publisher
 ![image-1](https://github.com/ternaksapi/tutorial8-publisher/assets/116947973/3bb23548-614f-41d8-9d04-a7d21383cd97)
 
 Setelah menjalankan program subscriber dan publisher
-![image-2](https://github.com/ternaksapi/tutorial8-publisher/assets/116947973/ac86f42e-8d6f-4b34-8308-cdcd881f18e7
+![image-2](https://github.com/ternaksapi/tutorial8-publisher/assets/116947973/ac86f42e-8d6f-4b34-8308-cdcd881f18e7)
 
 Menjalankan publisher dua kali
 ![image](https://github.com/ternaksapi/tutorial8-publisher/assets/116947973/5c19a6b8-a471-4f00-9796-553e49cceafa)
