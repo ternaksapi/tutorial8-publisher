@@ -34,5 +34,5 @@ UserCreatedEventMessage { user_id: "4".to_owned(), user_name:
 "2206081490-Dira".to_owned() });
     _ = p.publish_event("user_created".to_owned(),
 UserCreatedEventMessage { user_id: "5".to_owned(), user_name:
-"129500004y-Emir".to_owned() });
+"2206081490-Emir".to_owned() });
 }
