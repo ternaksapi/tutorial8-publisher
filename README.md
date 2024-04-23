@@ -20,3 +20,21 @@ Kedua program terhubung pada server message broker yang sama, pada kasus ini `Ra
 
 Penggunaan URL yang sama pada publisher dan subscriber memungkinkan mereka untuk berkomunikasi melalui message broker RabbitMQ yang sama. Publisher mengirimkan pesan ke antrian "user_created", dan subscriber mendengarkan pada antrian yang sama untuk menerima pesan tersebut.
 
+Sebelum menjalankan program subscriber dan publisher
+![alt text](image-1.png)
+
+
+Setelah menjalankan program subscriber dan publisher
+![alt text](image-2.png)
+
+Menjalankan publisher dua kali
+![alt text](image.png)
+
+Console Subscriber Setelah menjalankan program publisher kedua kali
+![alt text](image-3.png)
+
+RabbitMQ Setelah menjalankan _publisher_. Terdapat spike karena ketika publisher dijalankan, publisher mengirimkan pesan yang mengakibatkan message rate naik sesuai dengan grafik pada _RabbitMQ_
+![alt text](image-4.png)
+
+
+
