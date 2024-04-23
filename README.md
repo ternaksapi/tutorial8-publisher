@@ -20,6 +20,3 @@ Kedua program terhubung pada server message broker yang sama, pada kasus ini `Ra
 
 Penggunaan URL yang sama pada publisher dan subscriber memungkinkan mereka untuk berkomunikasi melalui message broker RabbitMQ yang sama. Publisher mengirimkan pesan ke antrian "user_created", dan subscriber mendengarkan pada antrian yang sama untuk menerima pesan tersebut.
 
-![alt text](image-1.png)
-
-
